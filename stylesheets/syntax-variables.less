@@ -1,0 +1,43 @@
+@import "colors";
+// This defines all syntax variables that syntax themes must implement when they
+// include a syntax-variables.less file.
+
+/* Functional names */
+//base
+@syntax-text-color:       @color-primary;
+@syntax-cursor-color:     @color-contrast-bold;
+@syntax-selection-color:  @color-contrast;
+@syntax-background-color: @color-very-dark;
+
+//guides
+@syntax-wrap-guide-color:          fade(@color-secondary-bold, 45%);
+@syntax-indent-guide-color:        fade(@color-tertiary-bold, 40%);
+@syntax-invisible-character-color: fade(@color-primary-bold, 35%);
+
+//find & replace decorations
+@syntax-result-marker-color:          desaturate(@color-contrast-bold, 15%);
+@syntax-result-marker-color-selected: desaturate(@color-contrast, 15%);
+
+//gutter colors
+@syntax-gutter-text-color:                lighten(@color-primary-bold, 20%);
+@syntax-gutter-text-color-selected:       lighten(@color-primary-pale, 20%);
+@syntax-gutter-background-color:          lighten(@color-very-dark, 8%);
+@syntax-gutter-background-color-selected: @color-very-dark;
+
+//git diff (gutter, etc.)
+@syntax-color-git-rename: @color-git-blue;
+@syntax-color-git-add:    @color-git-green;
+@syntax-color-git-modify: @color-git-orange;
+@syntax-color-git-remove: @color-git-red;
+
+//source code
+@syntax-text-comment-color:           @color-primary-pale;
+@syntax-text-keyword-color:           @color-tertiary-bold;
+@syntax-text-string-color:            @color-secondary-pale;
+@syntax-text-number-color:            @color-secondary;
+@syntax-text-escaped-character-color: @color-secondary-pale;
+@syntax-text-variable-color:          @color-tertiary;
+@syntax-text-function-color:          @color-primary-bold;
+@syntax-text-class-color:             @color-tertiary-bold;
+@syntax-text-type-color:              @color-secondary-bold;
+@syntax-text-control-color:           @color-tertiary-pale;
