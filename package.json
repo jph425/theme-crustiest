@@ -1,9 +1,9 @@
 {
   "name": "test",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A test theme for experimentation",
-  "repository": "https://github.com/atom/test",
+  "repository": "https://github.com/jph425/theme-crustiest.git",
   "license": "None",
   "engines": {
     "atom": ">0.50.0"
