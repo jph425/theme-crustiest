@@ -1,10 +1,10 @@
 {
   "name": "test",
   "theme": "syntax",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A test theme for experimentation",
   "repository": "https://github.com/jph425/theme-crustiest.git",
-  "license": "None",
+  "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   }
